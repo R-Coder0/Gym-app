@@ -1,0 +1,25 @@
+body{
+    font-family: 'Anek Telugu', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+li{
+    text-decoration: none;
+
+}
+a{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*====variables======*/
+:root{
+    --main-color:#fa9f00;
+}

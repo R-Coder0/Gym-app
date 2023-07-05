@@ -1,0 +1,118 @@
+.plans{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+}
+.plans__container{
+    padding: 4rem  ;
+}
+.plans__title{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 600;
+    -webkit-text-stroke: 1px #fff;
+}
+.plans__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+   
+}
+.plans__card{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    padding: 4rem;
+    padding-top: 2rem;
+    border-radius: .7rem;
+    border: 1px solid #3F3F3F;
+}
+.plans__card-2{
+    background: var(--main-color);
+}
+.plans__icon p{
+    font-size: 2rem;
+    background-color: #c5c3c3;
+    width: 3rem;
+    border-radius: 50%;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+.plans__icon{
+    font-size: 2rem;
+    background-color: rgb(226, 225, 225);
+    border-radius: 50%;
+    padding: .8rem;
+    color: var(--main-color);
+}
+.plans__icons{
+    color: #1C1C1C;
+}
+.plans__name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: .9rem;
+}
+.plans__price{
+    font-size: 2rem;
+    color: #fff;
+}
+.plans__items p{
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+
+.plans__items p{
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.plans__1 {
+    margin-top: 2rem;
+}
+.plans__price-premium,
+.plans__name-premium,
+.plans__items-premium p{
+    color: #1C1C1C;
+}
+
+@media screen and (max-width:1170px) {
+    .plans__container{
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    .plans__card{
+        padding: 3rem;
+    }
+    
+ }
+
+ @media screen and (max-width:970px) {
+    .plans__content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+    .plans__container{
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+ }
+
+ @media screen and (max-width:600px){
+    .plans__content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .plans__container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+ }
+
+ @media screen and (max-width:380px){
+    .plans__container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+ }

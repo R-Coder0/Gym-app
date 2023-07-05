@@ -1,0 +1,141 @@
+.choose{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
+.choose__container{
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.choose__data{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+.choose__img {
+ margin-right: 2rem;
+ margin-left: -4rem;
+ margin-top: 3rem;
+
+}
+.choose__content{
+    margin-top: 7rem;
+}
+.reason{
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--main-color);
+}
+.choose__us{
+    font-size: 3.5rem;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #fff;
+}
+.choose__description{
+    font-size: 1.1rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+.choose__data{
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.choose__number{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+.choose__number-description{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+@media screen and (max-width:970px) {
+    .choose__container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+       
+       
+    }
+
+    .choose__us{
+        font-size: 3rem;
+    }
+    .choose__description{
+        font-size: 1rem;
+       
+        margin-top: 1.5rem;
+      
+    }
+    .choose__number{
+        font-size: 2rem;
+       
+    }
+    .choose__number-description{
+        font-size: 1rem;
+      
+    }
+    .choose__img {
+        margin-right: 2rem;
+        margin-left: -4rem;
+        margin-top: 3rem;
+       
+        height: auto;
+       
+       }
+       .choose__data{
+        padding-right:2rem ;
+        margin-left: -2rem;
+       }
+       .choose__content{
+       margin-left: -2rem;
+       }
+
+}
+
+@media screen and (max-width:630px) {
+    .choose__img {
+        margin-right: 2rem;
+        margin-left: -6rem;
+        margin-top: 3rem;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .choose__container{
+        display: block;
+    }
+    .choose__img{
+        margin: auto;
+        
+    }
+
+    .choose__data{
+        padding-right:2rem ;
+        margin-left: 0;
+       }
+       .choose__content{
+       margin-left: 0;
+       }
+}
+
+@media screen and (max-width:480px){
+    .choose__img{
+        margin-left: -3rem;
+        width: 95%;
+    }
+    .choose__img img{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .choose__img{
+        margin-left: -1rem;
+        width: 95%;
+    }
+}

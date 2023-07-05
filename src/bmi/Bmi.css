@@ -1,0 +1,147 @@
+.bmi{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
+.bmi__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.bmi__img{
+    background-color: var(--main-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.bmi__container{
+    padding: 4rem;
+}
+.bmi__title{
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 600;
+    -webkit-text-stroke: 1px #fff;
+}
+.bmi__label{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.bmi__input{
+    font-size: 1.2rem;
+    padding: .5rem  ;
+   margin-top: 1rem;
+    color: #fff;
+    font-weight: 600;
+    background: rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    outline: none;
+}
+.bmi__calculator{
+    margin-top: 3rem;
+}
+.bmi__mass{
+    margin-top: 2rem;
+}
+.bmi__btn{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    padding: .4rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    width: fit-content;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: var(--main-color);
+}
+.bmi__btn:hover{
+    color: #fff;
+    background: transparent;
+    border: 2px solid var(--main-color);
+}
+.bmi__result{
+    background-color: var(--main-color);
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    padding: .4rem;
+    width: fit-content;
+    font-weight: 600;
+    border-radius: .5rem;
+}
+.bmi__img2 img{
+width: 100%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.bmi__img{
+    height: 100%;
+}
+.bmi__check{
+    font-size: 2.3rem;
+    text-align: center;
+    color: var(--main-color);
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width:1170px) {
+    .bmi__container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+  .bmi__img{
+    padding: 1rem;
+  }
+  .bmi__img2{
+    width: 90%;
+    margin: auto;
+  }
+    
+ }
+
+ @media screen and (max-width:970px) {
+    .bmi__img{
+        padding:0;
+    }
+    .bmi__label{
+        font-size: 1.6rem;
+    }
+    .bmi__input{
+        width: 75%;
+    }
+
+
+ }
+
+ @media screen and (max-width:600px){
+
+    .bmi__content{
+        display: block;
+    }
+    .bmi__img{
+        margin: auto;
+        width: 70%;
+        height: 70%;
+        margin-top: 3rem;
+        background: transparent;
+    }
+    .bmi__img2{
+        width: 95%;
+    }
+ }
+
+
+ @media screen and (max-width:480px){
+    .bmi__img {
+      margin-left: -2rem;
+    }
+ }
+
+ @media screen and (max-width:380px){
+    .bmi__img img{
+        width: 95%;
+        margin-left: 1rem;
+    }
+ }
